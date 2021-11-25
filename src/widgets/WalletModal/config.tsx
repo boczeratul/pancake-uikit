@@ -5,6 +5,7 @@ import TrustWallet from "./icons/TrustWallet";
 import WalletConnect from "./icons/WalletConnect";
 import BinanceChain from "./icons/BinanceChain";
 import SafePalWallet from "./icons/SafePalWallet";
+import Blocto from "./icons/Blocto";
 import { Config, ConnectorNames } from "./types";
 
 const connectors: Config[] = [
@@ -42,6 +43,11 @@ const connectors: Config[] = [
     title: "SafePal Wallet",
     icon: SafePalWallet,
     connectorId: ConnectorNames.Injected,
+  },
+  {
+    title: "Blocto",
+    icon: Blocto,
+    connectorId: ConnectorNames.Blocto,
   },
 ];
 
